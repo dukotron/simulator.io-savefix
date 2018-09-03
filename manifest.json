@@ -1,0 +1,27 @@
+{
+    "name": "simulator.io - save fix",
+    "version": "0.1",
+    "description": "An extension that provides easier save functionality for simulator.io since the built in functionality is broken.",
+    "permissions": ["storage"],
+    "background": {
+        "scripts": ["js/background.js"],
+        "persistent": false
+    },
+    "page_action": {
+        "default_popup": "popup.html"/*,
+        "default_icon": {
+            "16": "",
+            "32": "",
+            "48": "",
+            "128": ""
+        }*/
+    },
+    "options_page": "options.html",
+    /*"icons": {
+        "16": "",
+        "32": "",
+        "48": "",
+        "128": ""
+    },*/
+    "manifest_version": 2
+}
