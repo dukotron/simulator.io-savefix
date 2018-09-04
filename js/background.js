@@ -17,7 +17,6 @@ chrome.runtime.onInstalled.addListener(function() {
     chrome.storage.sync.get(['items'], function(result) {
         console.log(result.items[0].name);
     });
-    
 
     chrome.declarativeContent.onPageChanged.removeRules(undefined, function() {
         chrome.declarativeContent.onPageChanged.addRules([{
