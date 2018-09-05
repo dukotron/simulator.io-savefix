@@ -1,7 +1,7 @@
 {
     "name": "simulator.io - save fix",
-    "version": "0.1",
-    "description": "An extension that provides easier save functionality for simulator.io since the built in functionality is broken.",
+    "version": "1.0",
+    "description": "An extension that provides easy save functionality for simulator.io (by Bastian Born) due to the built in functionality having bugs.",
     "permissions": ["storage", "activeTab"],
     "background": {
         "scripts": ["js/jquery-3.2.1.min.js", "js/background.js"],
